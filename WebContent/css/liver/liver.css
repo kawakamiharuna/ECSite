@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+header {
+	text-align: right;
+	font-size: 10px;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+
+}
+
+footer {
+	text-align: center;
+
+}
+
+h2 {
+	color: red;
+	text-align: center;
+	text-shadow: 1px 2px 3px black;
+}
+
+.liver {
+	border: 1px solid red;
+	border-radius: 20px;
+	background-color: #fff;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+body {
+	background-color: #fee5ca;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.liverhome {
+	font-size: 50px;
+	/*welcome to cellsellの大きさ*/
+	background-color: #FBE9E7;
+	margin-bottom: 0;
+	padding-bottom: 20px;
+}
+
+.liverhome strong {
+	margin-left: 100px;
+	text-shadow: 1px 2px 3px red;
+}
+
+
+liver ::before {
+	content: "";
+	display: block;
+}
+
+/* 横並び */
+
+.liver {
+	display: flex;
+	/*横並び*/
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.liver .image {
+	width: 200px;
+	/*画像サイズ指定*/
+	margin: 0;
+	padding: 0;
+	text-align: center;
+
+}
+
+.liver .image img {
+	width: 250px;
+	height: 250px;
+	object-fit: cover
+}
+
+.liver .fount {
+	margin:0 20px 0 10px;
+	padding: 0;
+
+}
+
+.liver .title {
+	margin: auto;
+	padding: auto;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+.liver .text {
+	margin: auto;
+	padding: auto;
+}
+
+a {
+	color: red;
+}
+
+.liver {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.liver .image {
+  order: 1;
+}
+
+.liver .fount {
+  order: 2;
+  text-align: center;
+}
+
+.liver form {
+  order: 3;
+  padding-left: 20px;
+  padding-right: 20px;
+}

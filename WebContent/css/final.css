@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+header{
+	text-align: right;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+footer{
+	text-align: center;
+}
+main {
+	font-family: 'Caprasimo', cursive;
+	text-align: center;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+main table {
+	margin-left:auto;
+	margin-right:auto;
+	width: 80%;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	border: 3px solid red;
+	border-radius: 20px;
+	padding: 10px;
+	padding-top: 20px;
+}
+
+td,
+p {
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+body {
+	background-color: #ECEFF1;
+}
+a{
+	font-size: 20px;
+}
+.custamer{
+
+	border: 3px solid red;
+	border-radius: 20px;
+	padding: 10px;
+	padding-top: 20px;
+}
+	

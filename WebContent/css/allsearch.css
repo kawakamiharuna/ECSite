@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+
+
+header {
+	text-align: right;
+
+}
+
+footer {
+	text-align: center;
+	font-family: 'Caprasimo', cursive;
+}
+
+h2 {
+	color: red;
+	text-align: center;
+}
+
+.search {
+	border: 1px solid red;
+	border-radius: 20px;
+	background-color: #fff;
+	padding: 10px;
+	margin-bottom: 10px;
+	
+}
+
+body {
+	background-color: #fee5ca;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.searchhome {
+	font-size: 50px;
+	/*welcome to cellsellの大きさ*/
+	background-color: #FBE9E7;
+	margin-bottom: 0;
+	padding-bottom: 20px;
+	text-shadow: 1px 2px 3px red;
+}
+
+.searchhome strong {
+	margin-left: 500px;
+}
+
+
+
+/* 横並び */
+
+.search {
+display: flex;
+	/*横並び*/
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.search img {
+	/*画像サイズ指定*/
+	margin: 0;
+	padding-top: 30px;
+	padding-left:50px;
+
+
+}
+
+.img img {
+	width: 250px;
+	height: 250px;
+	object-fit: cover
+}
+
+.search .fount {
+	margin: 0 20px 0 10px;
+	padding: 0;
+
+}
+
+.search .title {
+	margin: auto;
+	padding: auto;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.search .text {
+	margin: auto;
+	padding: auto;
+}
+
+a {
+	color: red;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search .image {
+  order: 1;
+}
+
+.search .fount {
+  order: 2;
+  text-align: center;
+}
+
+.search form {
+  order: 3;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+

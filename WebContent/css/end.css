@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+.thankyou {
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 1.5;
+	margin-top: 50px;
+	text-align: center;
+	font-family: 'Rampart One', cursive;
+	color: #81CF65;
+
+}
+.human{
+	padding-top:50px;
+}
+
+body {
+	background-color: #FFF9C4;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	text-align: center;
+
+}
+
+a {
+	color: red;
+	text-align: center;
+	padding-top: 10px;
+}
+
+footer {
+	text-align: center;
+}
+
+.animation{
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1.5s;
+  width: 128px;
+}
+
+.keyframe1{
+  animation-name: anim_v;
+}
+
+@keyframes anim_v {
+  0% {
+    transform: translate(0, 0px);
+  }
+  100% {
+    transform: translate(0, 60px);
+  }
+}
+.logout{
+	text-align: center;
+	padding:100px ;
+	font-size: 50px;
+}

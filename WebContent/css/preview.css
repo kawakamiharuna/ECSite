@@ -1,0 +1,37 @@
+@charset "UTF-8";
+.title{
+	background-color:#BAD7DF ;
+	font-size: 25px;
+}
+header {
+	text-align: right;
+}
+
+footer {
+	text-align: center;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+main {
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	text-align: center;
+}
+
+main table {
+	width: 100%;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	border: 3px solid red;
+	border-radius: 20px;
+	padding: 10px;
+	padding-top: 30px;
+}
+
+td,
+p {
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+body {
+	background-color: #ECEFF1;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+}

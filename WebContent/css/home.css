@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+footer{
+	text-align: center;
+}
+headre{
+	text-align: right;
+	font-size: 20px
+}
+a{
+	color: red;
+}
+.welcome {
+	font-size: 50px;
+	/*welcome to cellsellの大きさ*/
+	background-color: #FBE9E7;
+}
+
+.welcome strong {
+	margin-left: 100px;
+	text-shadow: 1px 2px 3px red;
+}
+
+/* 横並び */
+
+.news {
+	display: flex;
+	/*横並び*/
+}
+
+.news .image {
+	width: 640px;
+	/*画像サイズ指定*/
+	margin: 0;
+	padding: 0;
+}
+
+.news .image img {
+	width: 500px;
+	height: 200px;
+	object-fit: cover
+}
+
+.news .right {
+	margin: 0 0 0 20px;
+	padding: 0;
+}
+
+.news .title {
+	margin: auto;
+	padding: auto;
+	font-weight: bold;
+	font-size: 18px;
+	padding-top:20px;
+	text-align: center;
+}
+
+.news .text {
+	margin: auto;
+	padding: auto;
+	text-align: center;
+	color: red;
+}
+
+body {
+	background-color: #fee5ca;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.image img{
+	padding-top:10px;
+	border-radius: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

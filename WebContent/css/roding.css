@@ -1,0 +1,16 @@
+@charset "UTF-8";
+@keyframes slide-in {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.msg {
+  animation: slide-in 1s ease;
+}
+.matrix {
+  display: block;
+}

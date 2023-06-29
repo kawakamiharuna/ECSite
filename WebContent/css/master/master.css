@@ -1,0 +1,9 @@
+@charset "UTF-8";
+main , footer{
+	text-align: center;
+	margin-top:100px;
+}
+header{
+	text-align: left;
+	font-size: 10px;
+}

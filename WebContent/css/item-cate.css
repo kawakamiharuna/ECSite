@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+footer{
+	text-align: center;
+}
+.category1{
+	background-color: #E0F7FA;
+	margin-top: 10px;
+	margin-right: 0;
+}
+.category2{
+	background-color:#FFF59D;
+	margin-top: 10px;
+}
+
+.category3{
+	background-color: #F4FDE4;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.category4{
+	background-color:#FFF59D;
+	margin-top: 10px;
+}
+
+.category5{
+	background-color: #F4FDE4;
+	margin-top: 10px;
+}
+.category6{
+	background-color:#FFF59D;
+	margin-top: 10px;
+	padding-right: 20px;
+}
+
+.icon-img {
+  width: 150px;
+  height: 150px;
+}
+ul {
+  display: flex;
+  text-align: center;
+ }
+
+li{
+	width:150%;
+	list-style: none;
+}
+.icon img {
+  width: 200px;
+  height: 200px;
+}
+
+.catego{
+	font-size: 50px;/*CATEGORYの大きさ*/
+	background-color:#FBE9E7;
+}
+
+.catego strong{
+ margin-left: 100px;
+  text-shadow:1px 2px 3px red;
+}
+body{
+	background-color: #fee5ca;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+

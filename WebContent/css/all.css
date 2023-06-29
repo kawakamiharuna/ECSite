@@ -1,0 +1,80 @@
+@charset "UTF-8";
+.first{
+	padding-left: 50px;
+}
+.itemhome strong{
+ margin-left: 10px;
+ text-shadow:1px 2px 3px red;
+}
+h2{
+	color: red;
+	text-align: center;
+}
+
+li-img {
+  width: 50%;
+  height: 50%;
+}
+header{
+	text-align: right;
+}
+footer,.cate{
+	text-align: center;
+}
+.all li {
+  border: 1px solid red;
+  border-radius: 20px; 
+ background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+body{
+	background-color: #fee5ca;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+
+.all {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  flex-wrap: wrap;
+  
+}
+.search{
+	text-align: center;
+	color: red;
+}
+
+li{
+	width:30%;
+	list-style: none;
+	
+}
+
+.itemhome{
+	font-size: 50px;/*CATEGORYの大きさの大きさ*/
+	background-color:#FBE9E7;
+	
+}
+
+
+
+.search img{
+	width: 50px;
+	margin-top:20px;
+	
+	
+}
+footer-img{
+	width: 100px;
+}
+
+a{
+	color: #B11C1F;
+	padding-right: 20px;
+	text-align: center;
+}
+.top{
+	text-align: center;
+	}
